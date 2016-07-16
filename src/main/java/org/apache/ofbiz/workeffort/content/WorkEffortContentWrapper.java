@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  *******************************************************************************/
-package org.ofbiz.workeffort.content;
+package org.apache.ofbiz.workeffort.content;
 
 import java.io.IOException;
 import java.io.StringWriter;
@@ -30,23 +30,23 @@ import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.base.util.GeneralException;
-import org.ofbiz.base.util.GeneralRuntimeException;
-import org.ofbiz.base.util.StringUtil;
-import org.ofbiz.base.util.UtilCodec;
-import org.ofbiz.base.util.UtilHttp;
-import org.ofbiz.base.util.UtilValidate;
-import org.ofbiz.base.util.cache.UtilCache;
-import org.ofbiz.content.content.ContentWorker;
-import org.ofbiz.content.content.ContentWrapper;
-import org.ofbiz.entity.Delegator;
-import org.ofbiz.entity.GenericValue;
-import org.ofbiz.entity.model.ModelEntity;
-import org.ofbiz.entity.model.ModelUtil;
-import org.ofbiz.entity.util.EntityQuery;
-import org.ofbiz.entity.util.EntityUtilProperties;
-import org.ofbiz.service.LocalDispatcher;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.base.util.GeneralException;
+import org.apache.ofbiz.base.util.GeneralRuntimeException;
+import org.apache.ofbiz.base.util.StringUtil;
+import org.apache.ofbiz.base.util.UtilCodec;
+import org.apache.ofbiz.base.util.UtilHttp;
+import org.apache.ofbiz.base.util.UtilValidate;
+import org.apache.ofbiz.base.util.cache.UtilCache;
+import org.apache.ofbiz.content.content.ContentWorker;
+import org.apache.ofbiz.content.content.ContentWrapper;
+import org.apache.ofbiz.entity.Delegator;
+import org.apache.ofbiz.entity.GenericValue;
+import org.apache.ofbiz.entity.model.ModelEntity;
+import org.apache.ofbiz.entity.model.ModelUtil;
+import org.apache.ofbiz.entity.util.EntityQuery;
+import org.apache.ofbiz.entity.util.EntityUtilProperties;
+import org.apache.ofbiz.service.LocalDispatcher;
 
 /**
  * WorkEffortContentWrapper; gets work effort content for display

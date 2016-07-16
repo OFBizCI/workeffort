@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  *******************************************************************************/
-package org.ofbiz.workeffort.workeffort;
+package org.apache.ofbiz.workeffort.workeffort;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -26,13 +26,13 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
-import org.ofbiz.base.util.UtilValidate;
-import org.ofbiz.entity.Delegator;
-import org.ofbiz.webapp.stats.VisitHandler;
-import org.ofbiz.workeffort.workeffort.WorkEffortSearch.ResultSortOrder;
-import org.ofbiz.workeffort.workeffort.WorkEffortSearch.WorkEffortSearchConstraint;
-import org.ofbiz.workeffort.workeffort.WorkEffortSearch.WorkEffortSearchContext;
-import org.ofbiz.workeffort.workeffort.WorkEffortSearchSession.WorkEffortSearchOptions;
+import org.apache.ofbiz.base.util.UtilValidate;
+import org.apache.ofbiz.entity.Delegator;
+import org.apache.ofbiz.webapp.stats.VisitHandler;
+import org.apache.ofbiz.workeffort.workeffort.WorkEffortSearch.ResultSortOrder;
+import org.apache.ofbiz.workeffort.workeffort.WorkEffortSearch.WorkEffortSearchConstraint;
+import org.apache.ofbiz.workeffort.workeffort.WorkEffortSearch.WorkEffortSearchContext;
+import org.apache.ofbiz.workeffort.workeffort.WorkEffortSearchSession.WorkEffortSearchOptions;
 
 
 public class WorkEffortSearchEvents {

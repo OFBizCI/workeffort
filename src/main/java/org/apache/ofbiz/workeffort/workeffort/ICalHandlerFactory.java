@@ -17,7 +17,7 @@
  * under the License.
  *******************************************************************************/
 
-package org.ofbiz.workeffort.workeffort;
+package org.apache.ofbiz.workeffort.workeffort;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -28,9 +28,9 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.webapp.webdav.RequestHandler;
-import org.ofbiz.webapp.webdav.RequestHandlerFactory;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.webapp.webdav.RequestHandler;
+import org.apache.ofbiz.webapp.webdav.RequestHandlerFactory;
 
 /** WebDAV request handler factory for iCalendar. This class is a simple connector
  * between the WebDAV servlet and the <code>ICalWorker</code> class.

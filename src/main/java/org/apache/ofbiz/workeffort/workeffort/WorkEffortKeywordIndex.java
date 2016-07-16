@@ -17,7 +17,7 @@
  * under the License.
  *******************************************************************************/
 
-package org.ofbiz.workeffort.workeffort;
+package org.apache.ofbiz.workeffort.workeffort;
 
 import java.io.IOException;
 import java.util.LinkedList;
@@ -26,18 +26,18 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.base.util.GeneralException;
-import org.ofbiz.base.util.UtilDateTime;
-import org.ofbiz.base.util.UtilMisc;
-import org.ofbiz.common.KeywordSearchUtil;
-import org.ofbiz.content.data.DataResourceWorker;
-import org.ofbiz.entity.Delegator;
-import org.ofbiz.entity.GenericEntityException;
-import org.ofbiz.entity.GenericValue;
-import org.ofbiz.entity.util.EntityQuery;
-import org.ofbiz.entity.util.EntityUtil;
-import org.ofbiz.entity.util.EntityUtilProperties;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.base.util.GeneralException;
+import org.apache.ofbiz.base.util.UtilDateTime;
+import org.apache.ofbiz.base.util.UtilMisc;
+import org.apache.ofbiz.common.KeywordSearchUtil;
+import org.apache.ofbiz.content.data.DataResourceWorker;
+import org.apache.ofbiz.entity.Delegator;
+import org.apache.ofbiz.entity.GenericEntityException;
+import org.apache.ofbiz.entity.GenericValue;
+import org.apache.ofbiz.entity.util.EntityQuery;
+import org.apache.ofbiz.entity.util.EntityUtil;
+import org.apache.ofbiz.entity.util.EntityUtilProperties;
 
 public class WorkEffortKeywordIndex {
     public static final String module = WorkEffortKeywordIndex.class.getName();

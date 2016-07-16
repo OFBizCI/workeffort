@@ -17,7 +17,7 @@
  * under the License.
  *******************************************************************************/
 
-package org.ofbiz.workeffort.workeffort;
+package org.apache.ofbiz.workeffort.workeffort;
 
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -28,10 +28,10 @@ import java.util.Stack;
 import net.fortuna.ical4j.model.*;
 import net.fortuna.ical4j.model.property.*;
 
-import org.ofbiz.service.calendar.TemporalExpression;
-import org.ofbiz.service.calendar.TemporalExpressionVisitor;
-import org.ofbiz.service.calendar.TemporalExpressions;
-import org.ofbiz.service.calendar.TemporalExpressions.*;
+import org.apache.ofbiz.service.calendar.TemporalExpression;
+import org.apache.ofbiz.service.calendar.TemporalExpressionVisitor;
+import org.apache.ofbiz.service.calendar.TemporalExpressions;
+import org.apache.ofbiz.service.calendar.TemporalExpressions.*;
 
 import com.ibm.icu.util.Calendar;
 
@@ -193,7 +193,7 @@ public class ICalRecurConverter implements TemporalExpressionVisitor {
         if (this.state.isExcluded) {
             throw new IllegalStateException("iCalendar does not support excluded date ranges");
         }
-        org.ofbiz.base.util.DateRange range = expr.getDateRange();
+        org.apache.ofbiz.base.util.DateRange range = expr.getDateRange();
         PeriodList periodList = new PeriodList();
         periodList.add(new Period(new DateTime(range.start()), new DateTime(range.end())));
         this.incDateList.add(new RDate(periodList));

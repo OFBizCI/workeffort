@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  *******************************************************************************/
-package org.ofbiz.workeffort.workeffort;
+package org.apache.ofbiz.workeffort.workeffort;
 
 import java.sql.Timestamp;
 import java.util.LinkedList;
@@ -27,15 +27,15 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.base.util.UtilGenerics;
-import org.ofbiz.base.util.UtilHttp;
-import org.ofbiz.base.util.UtilMisc;
-import org.ofbiz.base.util.UtilValidate;
-import org.ofbiz.entity.Delegator;
-import org.ofbiz.workeffort.workeffort.WorkEffortSearch.ResultSortOrder;
-import org.ofbiz.workeffort.workeffort.WorkEffortSearch.SortKeywordRelevancy;
-import org.ofbiz.workeffort.workeffort.WorkEffortSearch.WorkEffortSearchConstraint;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.base.util.UtilGenerics;
+import org.apache.ofbiz.base.util.UtilHttp;
+import org.apache.ofbiz.base.util.UtilMisc;
+import org.apache.ofbiz.base.util.UtilValidate;
+import org.apache.ofbiz.entity.Delegator;
+import org.apache.ofbiz.workeffort.workeffort.WorkEffortSearch.ResultSortOrder;
+import org.apache.ofbiz.workeffort.workeffort.WorkEffortSearch.SortKeywordRelevancy;
+import org.apache.ofbiz.workeffort.workeffort.WorkEffortSearch.WorkEffortSearchConstraint;
 
 public class WorkEffortSearchSession {
 
